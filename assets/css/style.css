@@ -6,18 +6,34 @@ margin: 0;
 }
 
 
+/*General Styles*/
+body{min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /*generic project styles*/
+    color: #3a3a3a;
+
+}
+
 
 /*Header*/
-Header {background-color: blue;
+Header {background-color: lightcoral;
 
 
 }
 
 
 /*Main*/
-Main{background-color: brown;}
+Main{background-color: lightblue;
+
+/*Make main element take up any surplus space to push footer*/
+flex: 1 0 auto;
+}
 
 
 
 /*footer*/
-footer{background-color: aquamarine;}
+footer{background-color: orange;
+
+}
