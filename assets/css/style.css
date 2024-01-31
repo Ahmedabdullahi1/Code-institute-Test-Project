@@ -39,18 +39,32 @@ header a {text-decoration:none;
 h1{ font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #252525; 
+
 
 
 }
 
-/*Main*/
+#menu{
+font-size: 100%;
+letter-spacing: 4px;
+list-style-type: none;    
+}
+
+#menu > li { margin-bottom: 1em;
+
+
+}
+
+.active {border-bottom: 1px solid #3a3a3a;}
+
+
+/*Main content*/
 Main{background-color: lightblue;
 
-/*Make main element take up any surplus space to push footer*/
-flex: 1 0 auto;
+    /*Make main element take up any surplus space to push footer*/
+        flex: 1 0 auto;
 }
-
 
 
 /*footer*/
