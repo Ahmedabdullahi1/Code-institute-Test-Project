@@ -118,3 +118,9 @@ footer{background-color: orange;
 
     .nav-toggle-label{display: none;}
 
+    #logo{font-size: 280%;
+    line-height: 75px;
+    margin: top 0 0.5rem ;}
+
+    main{margin-top: 79px;}
+
